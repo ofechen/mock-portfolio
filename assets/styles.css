@@ -1,0 +1,84 @@
+* {
+  font-family: "Noto Serif SC", serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 1200px;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 59px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+header img {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  padding: 80px;
+}
+
+.stats {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.stats article {
+  font-size: 39px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 25px;
+  width: 5em;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main article {
+  margin: 0 37px;
+  height: 550px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main article img {
+  width: 90%;
+  height: 450px;
+  object-fit: cover;
+  object-position: top;
+}
+
+#nuni-pic {
+  object-position: unset;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+footer img {
+  width: 60%;
+}
